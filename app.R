@@ -188,7 +188,7 @@ ui <-
     ) # END NAVIGATION PANELS 
     
     , tags$p('Reshma Kassanjee. Last updated Aug 2025. Some rights reserved. CC BY-NC 4.0'
-             , style = 'font-size:70%')
+             , style = 'font-size:80%')
     
     #
     #
@@ -557,4 +557,5 @@ server <- function(input, output, session) {
 
 
 shinyApp(ui = ui, server = server)
+
 
